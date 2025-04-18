@@ -1,0 +1,47 @@
+<ul> = lista de itens
+<li> = item da lista
+<a href="#"> = um link (ainda sem destino e sem texto)
+
+
+linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(1.jpg); - cria egradê linear (uma camada de cor) indo de baixo para cima (to top), 
+mas com a mesma cor em toda a área.
+
+url(1.jpg) - e a imagem de fundo.
+
+background-position: center;
+* Centraliza a imagem de fundo tanto horizontalmente quanto verticalmente.
+
+background-size: cover;
+* Cobre toda a área do elemento, mesmo que precise ser cortada em alguns lados.
+
+109vh - (vh) altura da janela do navegador.
+
+
+transition: 0.4s ease-in-out - cria animações suaves quando algum estilo muda 
+(como cor, tamanho, posição etc.).
+- 0.4s → Duração da transição (0.4 segundos)
+- ease-in-out → Tipo de aceleração (começa devagar, acelera no meio, termina devagar)
+
+
+.btn:focus {}  - é aplicada a um elemento quando ele recebe foco, ou seja:
+Quando o usuário clica sobre ele ou quando ele usa a tecla TAB para navegar até o elemento
+- Exemplo:
+.btn:focus {
+  outline: 2px solid orange;
+  background-color: #ffcc00;
+}
+
+
+<h1>Web Design & <br><span>Development</span> <br>Course </h1> - o span permite modificar o DEVELOPMENT 
+de forma diferente, em relacao as outras letras contidas nessa frase.
+
+
+font-size: 1.8vw; é uma maneira eficaz de tornar o texto responsivo, 
+adaptando-se dinamicamente à largura da janela do navegador  (vw).​
+
+
+Use px quando você precisa de controle preciso e consistente, 
+como em logotipos ou elementos gráficos que não devem mudar de tamanho.
+
+Use % quando deseja que o layout se ajuste dinamicamente 
+ao tamanho da tela ou do contêiner, promovendo responsividade.
